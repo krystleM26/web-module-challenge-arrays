@@ -73,8 +73,6 @@ function is31Flavors(array){
       return true;
     }
   }
-//  .length
-//  conditional here if the array is 31 flavors, return true or false
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -84,17 +82,18 @@ Use the addFlavor function below to do the following:
   1. Receive an array
   2. Receive a new flavor as a string
   3. The function adds the passed flavor to the front of the passed array
-  4. The function should return the resulting array
+  4. The function should return the resulting array"
 
   For example: addFlavor(originalFlavors, "Rainbow Sherbert") should return the array ["Rainbow Sherbert", "Banana Nut Fudge",..."Vanilla Burnt Almond"]
 */
 
 //  2 params - array, flavor
-function addFlavor(/*your code here*/){
- /*your code here*/
+function addFlavor(array) {
+ array.unshift("Rainbow Sherbert");
 
-//  add flavor 
+return array;
 }
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
